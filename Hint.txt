@@ -1,0 +1,30 @@
+This is a cheat sheet on how to create a react app from scratch without using the create-react-app
+
+
+INITIALIZE PACKAGE.JSON
+    npm init -y
+
+INSTALL MINIMUM REQUIRED DEPENDENCIES
+    npm i react react-dom
+
+INSTALL MINIMUM REQURIED DEV DEPENDENCIES
+    ---webpack dependencies---
+    npm i -D webpack 
+             webpack-cli 
+             webpack-dev-server 
+             html-webpack-plugin
+    
+    ---babel dependencies---
+    npm i -D babel-core
+             babel-preset-env
+             babel-preset-react
+             babel-loader
+
+CREATE A .babelrc FILE TO INITIALIZE PRESET DEPENDENCY
+
+FORMULATE WEBPACK.CONFIG.JSON
+CREATE AN INDEX.HTML TEMPLATE
+
+CREATE THE REACT FILE
+
+FINALIZE THE SCRIPT IN THE PACKAGE.JSON

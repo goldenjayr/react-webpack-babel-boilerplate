@@ -1,0 +1,4 @@
+// specify presets to use
+{
+    "presets": ["env", "react"]
+}
