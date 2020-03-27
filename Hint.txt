@@ -15,9 +15,9 @@ INSTALL MINIMUM REQURIED DEV DEPENDENCIES
              html-webpack-plugin
     
     ---babel dependencies---
-    npm i -D babel-core
-             babel-preset-env
-             babel-preset-react
+    npm i -D @babel/core
+             @babel/preset-env
+             @babel/preset-react
              babel-loader
 
 CREATE A .babelrc FILE TO INITIALIZE PRESET DEPENDENCY
